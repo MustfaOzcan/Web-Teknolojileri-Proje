@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Ana{
+    border: solid 2px black;
+}
+.Ana aside{
+    border: 1px solid whitered;
+    width: 19%;
+    height: 100%;
+    background-color:black;
+   
+    margin: 1px;
+    display: block;
+    float: left;    
+
+}
+
+.foto{
+    width: 120px;
+    height: 150px;
+    margin: auto;
+
+}
+
+.foto img{
+    width: 120px;
+    margin: auto;
+
+}
+
+aside .text{
+    color: white;
+    text-align: left;
+    padding: 5px;
+   
+
+}
+
+aside .ilgi{
+    color: white;
+    text-align: left;
+    padding: 5px;
+    
+
+
+}
+/*SAĞ KISIM*/
+
+.Ana .sag{
+    border: 1px solid green;
+    width: 100%;
+    height: 100%;
+    margin: 1px;
+
+} 
+
+.sag .header{
+    text-align: center;
+}
+.sag .egitim{
+  height:95%;
+
+}
+
+
+
+
+
+
+
