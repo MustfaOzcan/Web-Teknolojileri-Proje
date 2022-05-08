@@ -36,4 +36,35 @@
 İletişim sayfası tüm form elemanlarını içermeli, formun tüm elamanlarının elemanın özelliğine göre seçim yada veri girişi yapılacak şekilde gönderilmesi sağlanmalıdır.
 İletişim formundaki gerekli kontrol işlemleri (boş mu, e-mail formatında mı vb.) javascript kullanılarak denetlenmelidir. (Html elemanlarına ait dahili denetimler kabul edilmeyecekitir)
 Form, temizle ve gönder butonları içermelidir.
+<br>
+
+
+
+
+# Düzenleme
+## Siteye Ait Görüntüler
+### Giriş Sayfası
+![Screenshot_1](https://user-images.githubusercontent.com/103693735/167319394-e0a77c9e-9dac-47c3-8676-50009210d5c6.png)
+### Siteye [oxcan.cf](http://oxcan.cf/) şeklinde giriş yaptığımızda karşımıza login sayfası çıkıyor.
+### E-posta kısmına g201210090@sakarya.edu.tr şifre kısmına ise g201210090 yazıyoruz.
+![Screenshot_2](https://user-images.githubusercontent.com/103693735/167319555-e7edf5d3-9e86-419e-87de-b1c0f505fcac.png)
+> ### Bu şekilde giriş yaptığımızda başarılı şekilde giriş yapmış oluyoruz ve anasayfa erişim linki beliriyor.
+> <br>
+ ### Girişi Hatalı yaptığımızda ise böyle bir ekran ile karşılaşıyoruz.
+![Screenshot_3](https://user-images.githubusercontent.com/103693735/167319642-a58d2fc4-544d-452f-9d86-193f8d238160.png)
+
+### Anasayfa
+
+![Screenshot_4](https://user-images.githubusercontent.com/103693735/167319860-5e520a7a-521f-4494-ae0e-6cb2d19ab90f.png)
+### Websitemiz responsive olduğu görülüyor.
+![Screenshot_5](https://user-images.githubusercontent.com/103693735/167319865-e4cd2027-029e-4b59-b760-ee761651f7c8.png)
+
+### İlgi Alanlarım 
+### Game of Thrones Karekterlerini Adları Unvanları Ve Hanedanları bir API ile alınıyor.
+![Screenshot_6](https://user-images.githubusercontent.com/103693735/167320024-2509c303-85dd-446e-b0b7-36fe1f2222b3.png)
+![Screenshot_7](https://user-images.githubusercontent.com/103693735/167320025-4fb29ce9-b721-4802-9420-837c31afdc2c.png)
+
+### Şehrim
+### Şehrimi Tanıttığım Sayfa
+![Screenshot_8](https://user-images.githubusercontent.com/103693735/167320053-bb67927c-ebc0-4c83-abce-5c2df850bb19.png)
 
