@@ -43,7 +43,7 @@ Form, temizle ve gönder butonları içermelidir.
 
 # Düzenleme
 ## Siteye Ait Görüntüler
-### Giriş Sayfası
+## Login Sayfası
 ![Screenshot_1](https://user-images.githubusercontent.com/103693735/167319394-e0a77c9e-9dac-47c3-8676-50009210d5c6.png)
 ### Siteye [oxcan.cf](http://oxcan.cf/) şeklinde giriş yaptığımızda karşımıza login sayfası çıkıyor.
 ### E-posta kısmına g201210090@sakarya.edu.tr şifre kısmına ise g201210090 yazıyoruz.
@@ -53,18 +53,32 @@ Form, temizle ve gönder butonları içermelidir.
  ### Girişi Hatalı yaptığımızda ise böyle bir ekran ile karşılaşıyoruz.
 ![Screenshot_3](https://user-images.githubusercontent.com/103693735/167319642-a58d2fc4-544d-452f-9d86-193f8d238160.png)
 
-### Anasayfa
+## Anasayfa
 
 ![Screenshot_4](https://user-images.githubusercontent.com/103693735/167319860-5e520a7a-521f-4494-ae0e-6cb2d19ab90f.png)
 ### Websitemiz responsive olduğu görülüyor.
 ![Screenshot_5](https://user-images.githubusercontent.com/103693735/167319865-e4cd2027-029e-4b59-b760-ee761651f7c8.png)
 
-### İlgi Alanlarım 
+## İlgi Alanlarım 
 ### Game of Thrones Karekterlerini Adları Unvanları Ve Hanedanları bir API ile alınıyor.
 ![Screenshot_6](https://user-images.githubusercontent.com/103693735/167320024-2509c303-85dd-446e-b0b7-36fe1f2222b3.png)
 ![Screenshot_7](https://user-images.githubusercontent.com/103693735/167320025-4fb29ce9-b721-4802-9420-837c31afdc2c.png)
 
-### Şehrim
+## Şehrim
 ### Şehrimi Tanıttığım Sayfa
 ![Screenshot_8](https://user-images.githubusercontent.com/103693735/167320053-bb67927c-ebc0-4c83-abce-5c2df850bb19.png)
 
+## Mirasımız
+### Tarihi Mirasların Tanıtıldığı Mirasımız Sayfası
+![Screenshot_9](https://user-images.githubusercontent.com/103693735/167511285-0ec1d6f1-2f92-47ab-8372-93bcc0cbfe2e.png)
+
+## Eğitim
+### Semantik elementlerle oluşturulmuş CV 
+![Screenshot_10](https://user-images.githubusercontent.com/103693735/167511600-4133521d-88b2-4e97-b7b2-ee6a36f75756.png)
+
+## Blog
+### Sosyal medya hesabıma link verdiğim blog sayfası 
+![Screenshot_11](https://user-images.githubusercontent.com/103693735/167511887-e8c01c4f-8ca3-46ae-9f5c-5072db55dfe3.png)
+
+## İletişim Sayfası
+![Screenshot_12](https://user-images.githubusercontent.com/103693735/167511996-3751ded0-4783-41bd-98a1-8947004d4ba4.png)
