@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--Yazı Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+  <!--Yazı Font-->
+
+
+
+  <style>
+    @media (min-width: 767px) {
+      .imgpng {
+        width: 140px !important;
+
+
+      }
+
+      li a {
+        font-size: 21px;
+      }
+
+    }
+
+    @media (min-width: 767px) {
+
+
+      .col-slide {
+        width: 50%;
+
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top  ">
+
+    <div class="container-fluid">
+
+      <div class="display-6 bg-light mr-5px ">
+        <a  href="index.html"><img
+            class="imgpng" style="width: 75px;" src="Mustafa.png" alt=""></a>
+
+      </div>
+
+      <button type="button" data-toggle="collapse" data-target="#navbarMenu" class="navbar-toggler bg-light"> <span
+          class="navbar-toggler-icon "></span> </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+
+        <!--NAVBAR-->
+        <ul class="navbar-nav m-auto ">
+          <li class="nav-item">
+
+            <a class="nav-link text-white" href="index.html">Ana Sayfa</a>
+
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link text-white" href="ilgialanlarım.html">İlgi Alanlarım</a>
+
+
+          </li>
+
+
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Şehrim
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="benimsehrim.html">Benim Şehrim</a>
+              <a class="dropdown-item" href="mirasımız.html">Mirasımız</a>
+             
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="egitim.html">Eğitim </a>
+          </li>
+
+          <li class="nav-item">
+            <a target="_blank" class="nav-link text-white" href="https://vsco.co/mustafaoxcan/gallery">Blog </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="iletisim.html">İletişim</a>
+          </li>
+
+
+
+
+
+
+
+
+        </ul>
+
+      </div>
+
+
+
+
+
+    </div>
+  </nav>
+
+  <div class="container border border-dark">
+
+    <!--satır 1-->
+    <div class="row-1 ">
+
+      <div class="col-12">
+        <h1 style="font-family: 'Square Peg', cursive; font-size: 80px;"> <em>İletişim</em></h1>
+      </div>
+
+    </div>
+
+    <!--satır 2-->
+    <div class="row-2 ">
+
+      <div class="form">
+
+        <form action="gonder.php" method="post">
+
+          <table class="table " style="padding: 15px;">
+
+            <tr id="isim">
+
+              <td>
+                <label for="isim">İsim:</label> <br>
+                <input type="text" name="adi" height="35px" placeholder="İsim Giriniz..." required autofocus>
+              </td>
+
+
+            </tr>
+
+            <tr id="soyisim">
+              <td>
+                <label for="soyadi">Soy isim:</label> <br>
+                <input type="text" name="soyadi" id="soyadi" placeholder="Soy isminizi Giriniz..." required>
+                <br><br>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+
+                Cinsiyet:
+                <div class="radiobtn" style="padding: 5px; display: inline-block; border: none;">
+
+                  <input type="radio" name="cinsiyet"  value="Bay" checked>Erkek
+                  <input type="radio" name="cinsiyet"  value="Kadın">Kadın
+                  <input type="radio" name="cinsiyet"  value="Atak Helikopteri">Atak Helikopteri
+
+                </div>
+                <br><br>
+
+
+              </td>
+            </tr>
+
+            <tr id="telefon">
+
+              <td>
+                Telefon:
+                <input type="tel" name="telefon" required placeholder=" Telefon numarası giriniz... ">
+                <br><br>
+              </td>
+
+            </tr>
+
+            <tr id="mail">
+              <td>
+                Mail:
+                <input type="email" name="email" placeholder=" Mail Adresi giriniz...">
+                <br> <br>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Renk Seçimi:
+                <input type="checkbox" name="1" value="Kırmızı">Kırmızı
+                <input type="checkbox" name="2" value="Yeşil">Yeşil
+                <input type="checkbox" name="3" value="Mavi">Mavi
+                <br><br>
+              </td>
+            </tr>
+            <tr>
+              <td style="display: inline-block; ">
+                <select name="il">
+                  <option value="">Şehir Seçimi</option>
+                  <option value="Adana">Adana</option>
+                  <option value="Adıyaman">Adıyaman</option>
+                  <option value="Afyonkarahisar">Afyonkarahisar</option>
+                  <option value="Ağrı">Ağrı</option>
+                  <option value="Aksaray">Aksaray</option>
+                  <option value="Amasya">Amasya</option>
+                  <option value="Ankara">Ankara</option>
+                  <option value="Antalya">Antalya</option>
+                  <option value="Ardahan">Ardahan</option>
+                  <option value="Artvin">Artvin</option>
+                  <option value="Aydın">Aydın</option>
+                  <option value="Balıkesir">Balıkesir</option>
+                  <option value="Bartın">Bartın</option>
+                  <option value="Batman">Batman</option>
+                  <option value="Bayburt">Bayburt</option>
+                  <option value="Bilecik">Bilecik</option>
+                  <option value="Bingöl">Bingöl</option>
+                  <option value="Bitlis">Bitlis</option>
+                  <option value="Bolu">Bolu</option>
+                  <option value="Burdur">Burdur</option>
+                  <option value="Bursa">Bursa</option>
+                  <option value="Çanakkale">Çanakkale</option>
+                  <option value="Çankırı">Çankırı</option>
+                  <option value="Çorum">Çorum</option>
+                  <option value="Denizli">Denizli</option>
+                  <option value="Diyarbakır">Diyarbakır</option>
+                  <option value="Düzce">Düzce</option>
+                  <option value="Edirne">Edirne</option>
+                  <option value="Elazığ">Elazığ</option>
+                  <option value="Erzincan">Erzincan</option>
+                  <option value="Erzurum">Erzurum</option>
+                  <option value="Eskişehir">Eskişehir</option>
+                  <option value="Gaziantep">Gaziantep</option>
+                  <option value="Giresun">Giresun</option>
+                  <option value="Gümüşhane">Gümüşhane</option>
+                  <option value="Hakkâri">Hakkâri</option>
+                  <option value="Hatay">Hatay</option>
+                  <option value="Iğdır">Iğdır</option>
+                  <option value="Isparta">Isparta</option>
+                  <option value="İzmir">İzmir</option>
+                  <option value="İstanbul">İstanbul</option>
+                  <option value="Kahramanmaraş">Kahramanmaraş</option>
+                  <option value="Karabük">Karabük</option>
+                  <option value="Karaman">Karaman</option>
+                  <option value="Kars">Kars</option>
+                  <option value="Kastamonu">Kastamonu</option>
+                  <option value="Kayseri">Kayseri</option>
+                  <option value="Kırıkkale">Kırıkkale</option>
+                  <option value="Kırklareli">Kırklareli</option>
+                  <option value="Kırşehir">Kırşehir</option>
+                  <option value="Kilis">Kilis</option>
+                  <option value="Kocaeli">Kocaeli</option>
+                  <option value="Konya">Konya</option>
+                  <option value="Kütahya">Kütahya</option>
+                  <option value="Malatya">Malatya</option>
+                  <option value="Manisa">Manisa</option>
+                  <option value="Mardin">Mardin</option>
+                  <option value="Mersin">Mersin</option>
+                  <option value="Muğla">Muğla</option>
+                  <option value="Muş">Muş</option>
+                  <option value="Nevşehir">Nevşehir</option>
+                  <option value="Niğde">Niğde</option>
+                  <option value="Ordu">Ordu</option>
+                  <option value="Osmaniye">Osmaniye</option>
+                  <option value="Rize">Rize</option>
+                  <option value="Sakarya">Sakarya</option>
+                  <option value="Samsun">Samsun</option>
+                  <option value="Siirt">Siirt</option>
+                  <option value="Sinop">Sinop</option>
+                  <option value="Sivas">Sivas</option>
+                  <option value="Şırnak">Şırnak</option>
+                  <option value="Tekirdağ">Tekirdağ</option>
+                  <option value="Tokat">Tokat</option>
+                  <option value="Trabzon">Trabzon</option>
+                  <option value="Tunceli">Tunceli</option>
+                  <option value="Şanlıurfa">Şanlıurfa</option>
+                  <option value="Uşak">Uşak</option>
+                  <option value="Van">Van</option>
+                  <option value="Yalova">Yalova</option>
+                  <option value="Yozgat">Yozgat</option>
+                  <option value="Zonguldak">Zonguldak</option>
+              </td>
+            </tr>
+
+            <br>
+            <tr>
+
+              <td>
+                <textarea name="adres" id="" cols="50" rows="10" placeholder="Adres..." style="resize: none;"></textarea>
+
+              </td>
+
+
+            </tr>
+
+
+
+
+            <tr class="buton">
+              <!--Button Bloğu-->
+              <td style="display: inline-block;">
+
+                <input class="btn btn-outline-primary " type="submit" name="gonder" value="GÖNDER"
+                  style=" width:125px; height: 50px; margin-top: 65px;">
+              </td>
+
+              <td style="display: inline-block;">
+                <input class="btn btn-outline-primary text-center" type="reset" value="FORM RESET "
+                  style=" width:125px; height: 50px ; margin-top: 65px; margin-left: 25px; ">
+
+
+
+            </tr>
+
+
+
+
+
+          </table>
+
+
+
+
+
+
+        </form>
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!--satır 3-->
+    <div class="row-3 " style="clear: both;">
+
+
+    </div>
+
+
+
+  </div>
+
+
+  <!--satır footer 6-->
+  <div class="row ">
+    <div class="col-12">
+      <hr>
+      <br>
+
+      <div class="container">
+        <div class="row">
+
+
+
+
+          <div class="col-6">
+            <img class="w-25 border border-dark  " src="Mustafa.png" alt="">
+
+          </div>
+
+          <div class="col-12">
+            <p class="">
+              İletişim:<a target="_blank" href="https:gmail.com">mustafa.ozcan8@ogr.sakarya.edu.tr</a>
+            </p>
+
+            <p>
+              Tel: <a href="">05452546839</a>
+            </p>
+
+            <p>
+              Konum:
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96741.59188380043!2d30.26841443847566!3d40.7361802315099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccadf402d86aa9%3A0xaab3e808699006c0!2sSabahattin%20Zaim%20Erkek%20%C3%96%C4%9Frenci%20Yurdu%20KYK!5e0!3m2!1str!2str!4v1651422566800!5m2!1str!2str"
+              width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+          </div>
+
+
+
+
+
+          <span> <em> Copyright ©2022 All rights reserved~~MustafaÖzcan~~</em></span>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <hr>
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+  <!--  <script src="bootstrap.bundle.js"></script>
+  <script src="jquery.min.js"></script>-->
+</body>
+
+</html>
